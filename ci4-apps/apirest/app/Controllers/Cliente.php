@@ -88,11 +88,6 @@ class Cliente extends ResourceController
         public function delete($id = null)
         {
 
-                //  return $this->respond($this->model->delete($id));
-
-                //$this->model->delete($id); //colocar verificacao se deletou mesmo
-
-                //return $this->respond($this->model->findAll());
                 return $this->respond($this->model->delete($id));
         }
         
